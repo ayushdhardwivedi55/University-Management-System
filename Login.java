@@ -228,7 +228,7 @@ public class Login extends JFrame implements ActionListener {
         Connection conn = null;
         PreparedStatement pstmt = null;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Universitymanagement", "Ayush", "Ayush123");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Universitymanagement", "Ayush12", "Ayush12345");
             String query = "INSERT INTO users (username, password, email, phone, otp_email) VALUES (?, ?, ?, ?, ?)";
             pstmt = conn.prepareStatement(query);
             pstmt.setString(1, username);
@@ -254,7 +254,7 @@ public class Login extends JFrame implements ActionListener {
         PreparedStatement pstmt = null;
         ResultSet rs = null;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Universitymanagement", "Ayush", "Ayush123");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Universitymanagement", "Ayush12", "Ayush12345");
             String query = "SELECT * FROM users WHERE username = ? AND password = ?";
             pstmt = conn.prepareStatement(query);
             pstmt.setString(1, username);
@@ -308,8 +308,8 @@ public class Login extends JFrame implements ActionListener {
 
     private void sendOTPToEmail(String email, String otp) throws MessagingException {
         String host = "smtp.gmail.com";
-        String from = "ayushdhardwivedi55@gmail.com";
-        String pass = "tkyx eezv maov tzkk";// Replace with your app-specific password
+        String from = "use your own";
+        String pass = "use your own";// Replace with your app-specific password
 
         Properties props = System.getProperties();
         props.put("mail.smtp.starttls.enable", "true");
@@ -355,8 +355,8 @@ public class Login extends JFrame implements ActionListener {
 
     private void sendEmail(String to, String subject, String body) throws MessagingException {
         String host = "smtp.gmail.com";
-        String from = "ayushdhardwivedi55@gmail.com";
-        String pass = "tkyx eezv maov tzkk"; // Replace with your app-specific password
+        String from = "use your own";
+        String pass = "use your own"; // Replace with your app-specific password
 
         Properties props = System.getProperties();
         props.put("mail.smtp.starttls.enable", "true");
