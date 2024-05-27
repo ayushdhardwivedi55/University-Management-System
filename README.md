@@ -1,1 +1,2 @@
 # University-Management-System
+Welcome to the GitHub repository for our University Management System project, a comprehensive solution designed to streamline administrative processes within educational institutions. Built using Java-Swing for the user interface and MySQL for database management, this project offers a robust, user-friendly platform for managing student records, course information, faculty data, and administrative tasks.
