@@ -18,13 +18,13 @@ public class EmailSender {
     public static void main(String[] args) {
 
         // Sender's email and password
-        final String senderEmail = "ayushdhardwivedi55@gmail.com";
-        final String senderPassword = "tkyx eezv maov tzkk";
+        final String senderEmail = "use your email id";
+        final String senderPassword = "use you password";
 
         // Database connection details
         final String dbUrl = "jdbc:mysql://localhost:3306/Universitymanagement";
-        final String dbUsername = "Ayush";
-        final String dbPassword = "Ayush123";
+        final String dbUsername = "Ayush1";
+        final String dbPassword = "Ayush12345";
 
         Connection conn = null;
         PreparedStatement pstmt = null;
