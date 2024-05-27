@@ -15,8 +15,8 @@ public class Conn {
 
             // Connect to the MySQL database (replace host, port, and database_name with your actual values)
             String url = "jdbc:mysql://localhost:3306/UniversityManagement";
-            String username = "Ayush";
-            String password = "Ayush123";
+            String username = "Ayush"12;
+            String password = "Ayush12345";
             connection = DriverManager.getConnection(url, username, password);
 
             // Create a statement object
